@@ -1,0 +1,42 @@
+nodejs and npm install
+
+sudo apt install curl
+
+ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+sudo apt install -y nodejs   (npm v= 10.8.2,  nodejs= 20.17.0)
+npm install -g npm@10.8.3 (update the npm)
+
+npx create-strapi-app@latest interview-project (create strapi project)
+ 
+error- cannot find module
+rm -rf node_modules package-lock.json 
+npm install
+npm run develop( inside interview-project folder)
+
+
+
+
+Available commands in your project:
+
+  npm run develop
+  Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+
+  npm run start
+  Start Strapi without watch mode.
+
+  npm run build
+  Build Strapi admin panel.
+
+  npm run deploy
+  Deploy Strapi project.
+
+  npm run strapi
+  Display all available commands.
+
+You can start by doing:
+
+  cd /home/azureuser/interview-project
+  npm run develop
+
+
